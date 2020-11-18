@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Martin Schenkel Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header> 
+            <nav class="navbar" align="center">
+                <ul class = "nlist">
+                    <li class = "nlistpoint"><a href = "#home">Home</a></li>
+                    <li class = "nlistpoint"><a href = "#work">My Work</a></li>
+                    <li class = "nlistpoint"><a href = "#about me">About me</a></li>
+                    <li class = "nlistpoint"><a href = "#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="smooth"> 
+                <section id="home">
+                    <div>
+                        <h2 class="introduction">
+                            Hi! <br>
+                            I am <br>
+                            <span class = "name">Martin Schenkel </span><br>
+                            <span class = "job-title">Game Developer </span><br>
+                            <button class = "btn btn1" onclick = "window.location.href='#work';">View Work</button>
+                        </h2>
+                    </div>
+                    <div class = "image">
+                        <img src = "Pictures/Passbild.jpg" alt = "Picture of me" />
+                    </div>
+                </section>
+
+                <section id="work">
+                    <!--Here is where I would add the header-->
+                    <h1 class = "page-title work-title">My work</h1>
+                    <div class="card middle">
+                        <div class = "front">
+                            <img class = "headimage" src = "Pictures/CrowdKing.png">
+                            <h2>Crowd King</h2>
+                            <p>
+                                Crowd King was my year two project at Breda University of Applied Sciences. It is a cute platformer and available for download on itch.io
+                            </p>
+                        </div>
+                        <div class = "back">
+                            <div class = "back-content middle">
+                                <h3>Engine: </h3>
+                                <p>Unreal Engine 4</p>
+                                <h3>Languages: </h3>
+                                <p>C++ and Blueprints</p>
+                                <h3>Duration: </h3>
+                                <p>8 Weeks</p>
+                                <h3>Team Size:</h3>
+                                <p>12 People, 1 Producer, 4 Designers, 4 Artists <br> and 3 Programmers</p>
+                                <h3>My Responsibilities:</h3>
+                                <p>Gameplay programming (f.e. Hazards) <br> and VFX</p>
+                                <h3>Trailer:</h3>
+                                <p><a href = "https://youtu.be/2vPxmQ4hcLo" target="_blank">Link to the trailer</a></p>
+                                <h3>Download:</h3>
+                                <p><a href = "https://igad.itch.io/crowdking" target="_blank">Link to the itch.io page</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card middle">
+                        <div class = "front">
+                            <img class = "headimage" src = "Pictures/Empires.JPG">
+                            <h2>Empires</h2>
+                            <p>
+                                Empires is the name of a project I did during the first year of university. It's a real-time strategy game in space, in which you build ship and explore and conquer other star systems.
+                                It was created for the Raspberry Pi and developed with a given framework in C++.
+                            </p>
+                        </div>
+                        <div class = "back">
+                            <div class = "back-content middle">
+                                <h3>Languages: </h3>
+                                <p>C++</p>
+                                <h3>Duration: </h3>
+                                <p>8 Weeks</p>
+                                <h3>Team Size:</h3>
+                                <p>Solo Project</p>
+                                <h3>My Responsibilities:</h3>
+                                <p>Gameplay programming, AI programming<br> and UI Programming</p>
+                                <h3>Showcase Video:</h3>
+                                <p><a href = "https://youtu.be/qhMKtv_QTew" target="_blank">Link to the Showcase-Video</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card middle">
+                        <div class = "front">
+                            <img class = "headimage" src = "Pictures/DIY-Hero.JPG">
+                            <h2>DIY Hero</h2>
+                            <p>
+                                DIY Hero was a team project at the end of the first year at Breda University of Applied Sciences. It is a third-person game in which a little boy has to fight a tomato.
+                            </p>
+                        </div>
+                        <div class = "back">
+                            <div class = "back-content middle">
+                                <h3>Engine: </h3>
+                                <p>Unreal Engine 4</p>
+                                <h3>Languages: </h3>
+                                <p>Blueprints</p>
+                                <h3>Duration: </h3>
+                                <p>8 Weeks</p>
+                                <h3>Team Size:</h3>
+                                <p>9 People, 2 Designers, 4 Artists, <br> 1 Musician and 2 Programmers</p>
+                                <h3>My Responsibilities:</h3>
+                                <p>Gameplay programming (f.e. Dynamic Camera) </p>
+                                <h3>Trailer:</h3>
+                                <p><a href = "https://youtu.be/MZ4TVYB_p-Y" target="_blank">Link to the trailer</a></p>
+                                <h3>Notable Achievements:</h3>
+                                <p>This game was featured the Unreal Engine <br> Student Showcase Spring 2020 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class = "btn btn2 more-work-btn" onclick = "window.location.href='#all-work';">View more work</button>
+                </section>
+
+                <section id="all-work">
+                    <ul class = "more-work-list">
+                        <li>
+                            <h2>Tetris AI</h2>
+                            <ul class = "more-work-table">
+                                <li>
+                                     <img src = "Pictures/DIY-Hero.JPG" height =  "80px">
+                                </li>
+                                <li>
+                                    This was a solo project where I used reinforcement algorithms to teach my AI to learn how to play Tetris. I worked on this for about a week in total.
+                               </li>
+                               <li>
+                                    <a href = "https://youtu.be/yScEzGzCr3c" target="_blank">Link to a showcase video</a>
+                               </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h2>Ampleman Engine</h2>
+                            <ul class = "more-work-table">
+                                <li>
+                                     <img src = "Pictures/AmpleMan.JPG" height =  "80px">
+                                </li>
+                                <li>
+                                    AmpleEngine is what two of my classmates and me called our own custom 2D Game Engine that we were supposed to make a MegaMan X2 Clone upon. The engine is a pure Entity-Component System. I was responsible for the Physics, Gameplay Mechanics and Enemy AI. I also build the levels using our custom level editor tool. The engine was created in C++ from scratch.
+                               </li>
+                               <li>
+                                    <a href = "https://youtu.be/eaqMT4yVOR0" target="_blank">Link to a showcase video</a>
+                               </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h2>RayTracer</h2>
+                            <ul class = "more-work-table">
+                                <li>
+                                     <img src = "Pictures/RayTracer.png" height =  "80px">
+                                </li>
+                                <li>
+                                    In my first year of University we were tasked with creating a ray tracer from scratch in C++. It was not real-time needing about 10 seconds for every frame, but it had reflection and refraction on spheres and cuboids.
+                               </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h2>Hammer Fly</h2>
+                            <ul class = "more-work-table">
+                                <li>
+                                     <img src = "Pictures/hammerfly.png" height =  "80px">
+                                </li>
+                                <li>
+                                    Hammer Fly is a personal project I worked on. I made it in Unity on my own. Some assets are from Kenney Assets and some are created by me. I developed it for Android and it is currently available on the Play Store
+                               </li>
+                               <li>
+                                    <a href = "https://play.google.com/store/apps/details?id=com.DefaultCompany.HammerFly" target="_blank">Link to Google Play Store</a>
+                               </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="about me">
+                    <ul class = "about-me-list">
+                        <li class = "about-me-listpoint">
+                            <h1 class = "page-title">About me</h1>
+                        </li>
+                        <li class = "about-me-listpoint">
+                            <p>I am Martin Schenkel, a 20 year-old Game Development Student at Breda University of Applied Sciences. </p> 
+                        </li>
+                        <li>
+                            <br>
+                            <br>
+                        </li>
+                        <li class = "about-me-listpoint">
+                            My experience with <br>
+                            <h3>Programming languages</h3>
+                            <ul class = "icon-list">
+                                <li><img class = "icon" src = "Pictures/Icons/C++.svg" onclick = "parent.open('https://en.wikipedia.org/wiki/C%2B%2B')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/CSharp.svg" onclick = "parent.open('https://en.wikipedia.org/wiki/C_Sharp_(programming_language)')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/Java.svg" onclick = "parent.open('https://www.java.com/en/')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/HTML5.svg" onclick = "parent.open('https://en.wikipedia.org/wiki/HTML5')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/JS.png" onclick = "parent.open('https://developer.mozilla.org/en-US/docs/Web/JavaScript')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/gdscript.svg" onclick = "parent.open('https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_basics.html')"></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <br>
+                            <br>
+                        </li>
+                        <li class = "about-me-listpoint">
+                            My experience with <br>
+                            <h3>Development Software</h3>
+                            <ul class = "icon-list">
+                                <li><img class = "icon" src = "Pictures/Icons/VS.svg" onclick = "parent.open('https://visualstudio.microsoft.com/')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/VSC.svg" onclick = "parent.open('https://visualstudio.microsoft.com/')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/p4c.png" onclick = "parent.open('https://www.perforce.com/')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/Unity.svg" onclick = "parent.open('https://unity.com/')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/UE4.svg" onclick = "parent.open('https://www.unrealengine.com/en-US/')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/godot.svg" onclick = "parent.open('https://godotengine.org/')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/blender.svg" onclick = "parent.open('https://www.blender.org/')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/trello.svg" onclick = "parent.open('https://trello.com/en')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/Jenkins.svg" onclick = "parent.open('https://www.jenkins.io/')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/jira.svg" onclick = "parent.open('https://www.atlassian.com/software/jira')"></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="contact">
+                    <ul class = "about-me-list">
+                        <li class = "about-me-listpoint">
+                            <h1 class = "page-title">Contact me</h1>
+                        </li>
+                        <li class = "about-me-listpoint">
+                            <ul class = "contact-data">
+                                <li>Tasmanstraat 1</li>
+                                <li>4812GK Breda</li>
+                                <li>Netherlands</li>
+                                <li><br></li>
+                                <li>+49 1573 8173162</li>
+                            </ul>
+                            <h3>My social links:</h3>
+                            <ul class = "icon-list">
+                                <li><img class = "icon" src = "Pictures/Icons/twitter.svg" onclick = "parent.open('https://twitter.com/SchenkelGameDev')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/Linkedin.svg" onclick = "parent.open('https://www.linkedin.com/in/martin-schenkel-8231981bb/')"></li>
+                                <li><img class = "icon" src = "Pictures/Icons/mail.svg" onclick = "parent.open('mailto:martin.schenkel.ger@gmail.com')"></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                
+            </nav>
+
+        <footer> 
+            <ul class ="footer-list">
+                <li>© Martin Schenkel 2020</li>
+            </ul>
+        </footer>
+    </body>
+</html>
