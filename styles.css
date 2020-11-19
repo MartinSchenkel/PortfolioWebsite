@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 
 header {
     background: rgb(28, 28, 28);
@@ -341,7 +344,6 @@ footer {
 
 .more-work-btn {
     position: absolute;
-    margin-left: -10%;
     margin-top: 35%;
 }
 
