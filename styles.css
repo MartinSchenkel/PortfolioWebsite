@@ -95,7 +95,7 @@ footer {
 
 .navbar {
     position: fixed;
-    background-image: linear-gradient(rgb(28, 28, 28), rgb(28, 28, 28), rgb(28, 28, 28), rgb(48, 48, 48));
+    background-image: linear-gradient(rgb(28, 28, 28), rgb(28, 28, 28), rgb(28, 28, 28), rgba(48, 48, 48, 0));
     width: 100%;
     z-index: 1;
     margin-top: 0;
@@ -257,7 +257,7 @@ footer {
     backface-visibility: hidden;
     background: rgb(68, 68, 68);
     position: absolute;
-    transition: transform .6s linear;
+    transition: transform .3s linear;
 }
 
 .front {
