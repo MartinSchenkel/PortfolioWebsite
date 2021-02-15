@@ -14,7 +14,7 @@ body{
     margin: 0;
     padding: 0;
 }
-section {
+.big-section {
     position: relative;
     margin-top: 10px;
     display: flex;
@@ -397,6 +397,38 @@ footer {
 .more-work-table a:hover::after {
     width: 100%;
     background-color: orange; 
+}
+
+.work-section
+{
+    position:relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.work-div
+{
+    text-align: center;
+    background-color: rgb(28, 28, 28);
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: auto;
+    max-width: 60%;
+}
+.work-div a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 599;
+}
+
+.work-div a:hover{
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 1500px) {
