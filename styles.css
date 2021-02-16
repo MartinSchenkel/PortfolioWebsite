@@ -411,6 +411,10 @@ footer {
 .work-div
 {
     text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: orange;
     background-color: rgb(28, 28, 28);
     padding: 20px;
     margin: auto;
