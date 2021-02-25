@@ -24,25 +24,18 @@
             <p>This project was the first time developing something for another target platform. I have never used a raspberry pi before, so getting used to that was an additional challenge. For the game, I took inspiration from Stellaris. I learned how to optimize your game so that it can run on devices with low specs, how to create RTS AI, how to create an UI System and how to make a UI/UX Plan.</p>
         </div>
         <div class="work-div">
-            <h1> Creating Temporary Flocking </h1>
-            <img src="/Pictures/CrowdKing.png"> <!-- TODO ADD ACTUAL FAKE FLOCKING GIF-->
-            <p>This is how the "fake flocking" that I quickly created in the beginning looked.</p>
-            <p>In the beginning of the project, my team and I thought that it would be the best experience for the players if the little soldiers that run around the player use Flocking like Boids, as it gives the feeling of organic, intelligent movement. However, we weren't sure if it was feasible for us to create such a complex thing in the small time we had. So, as a Plan B and something that we could already test with before the actual BOIDs would be implemented, I created a small algorithm in C++ that would simulate how the soldiers would feel to the players. It was really simple and quickly done, which was exactly what we wanted. The idea was that every soldier gets assigned an offset for the king which they try to move towards. This felt quite static at first, so I made it that when the King moves the soldiers ignore the offset and just move towards the kings position. This created the feel of the crowd following you dynamically that we were looking for.</p>
-            <img src="/Pictures/CrowdKing.png"> <!-- TODO ADD code sample screenshot GIF-->
+            <h1> UI/UX Plan </h1>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vShU6DnoMq3tzjNyK1kZ89ivCiBJd-Zixd6oTdcsB2jXXsFoaXJuUvi2Hf26ZkYqUisklhOYCxOJvHA/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+            </iframe>
+            <p>This is the Design Document that I created before starting to implement the game</p>
+            <p>I tried to focus on what the player does and then create the systems I need from there. I think that I managed to come pretty close to the mockups in the actual game. I had a lot of fun making this document actually. I tried to be rather creative while still creating something that can be undestood by other people easily and show and justifiy the decisions I have made.</p>
         </div>
         <div class="work-div">
-            <h1>Creating VFX</h1>
-            <img src="/Pictures/CrowdKing.png"> <!-- TODO ADD ACTUAL VFX COMPILATION GIF-->
-            <p>The VFX I created.</p>
-            <p>I had to make sure that the VFX fit our flatshaded artstyle and thus made sure to get frequent feedback from the artists on the team.</p>
-            <p>While I don't think I will be a VFX Artist again in the future, I think I was able to show the flexibility that I bring to a team. I think I am able to pick up many different roles in the team and fulfill them well. I think it's also valuable to know what needs to be done for VFX, how difficult and how important it is. I think my hands-on experience in this field made me a more well-rounded game developer. I think it also helped my communicative abilities as I was forced to communicate more with teammembers I would usually have less contact with.</p>
-        </div>
-        <div class="work-div">
-            <h1>Creating the Hazards</h1>
-            <img src="/Pictures/CrowdKing.png"> <!-- TODO ADD ACTUAL Hazard Spline GIF-->
-            <p>Hazard that follows a spline.</p>
-            <p>This was the first time I used Unreal Engines spline tool. I used it so that Designers could easily create more interesting movement patterns for the Hazards than just going back and forwards. </p>
-            <p>I created a lot of different Hazards in Unreal Blueprints, from swinging ones to ones moving back and forward and others following a spline like you see above. The main focus was the challenge for the players and so I made sure to communicate my ideas clear to the designers and check their opinions on what they thought was important and so on. There was also a lot of polishing done when implementing the art assets that I took responsibility on, such as the lawnmowers turning properly when they should turn around.</p>
+            <h1>Creating the AI</h1>
+            <p>My goal for the AI was to create an AI that would show a little bit of "personality". For this I made each AI have different values for Militaryfocus and aggressiveness and depending on those values it would play in different ways. The way the game works, is that you get a tax collecting vessel once you have more than 10 Planets in your system, these are really important as they are what gets you gold to buy other things. The AI will use its discovery vessels to explore and claim neighboring systems to reach that point as fast as possible. After that, the before mentioned values come into play. The AI will choose to do a MilitaryMove such as attacking an enemy, building a bigger fleet or moving the existing fleet or to do a more civil move such as moving or creating a discovery vessel. The Military Action it takes is decided by the aggressiveness value, more aggressive AI will search more confrontation and move their fleets aggressively, while less aggressive, military focussed AI's may choose to just build up a huge fleet for defense.  
+            </p>
+            <p>This was the idea for the AI. It never really worked, because of bugs with figuring out which systems are on the outside of its territory, which are already captured and which will be captured. Unfortunately I did not have enough time to figure those out, so the AI only really worked during the early game, where it is expanding to 10 Systems as fast as possible.</p>
+            <img src="/Pictures/empiresCode.png">
         </div>
     </section>
     

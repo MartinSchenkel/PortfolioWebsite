@@ -1,53 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Crowd King</title>
+    <title>Hammer Fly</title>
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <section class="work-section">
         <div class="work-div">
-            <img src="/Pictures/CrowdKing.png" align="center"></img>
+            <img src="/Pictures/BannerArt.png" align="center"></img>
         </div>
         <div class="work-div">
             <h1> What was the project?</h1>
-            <p> Crowd King was one of my year two project at Breda University of Applied Sciences. It is a cute platformer and available for download on <a href=https://igad.itch.io/crowdking>itch.io</a> </p>
-            <p> I worked on it in a team of 12 People: 1 Producer, 4 Designers, 4 Artists and 3 Programmers </p>
-            <p> We created the game in Unreal Engine using C++ and Blueprints. My responsibilities were Gameplay Programming and making the VFX. More Details below. </p>
-        </div>
-        <div class="work-div">
-            <h1> The Trailer </h1>
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/2vPxmQ4hcLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-        </div>
-        <div class="work-div">
-            <h1> What did I learn from the project?</h1>
-            <p> 
-                Working in a bigger team like this is always a valuable experience. This was also the first time using C++ for Unreal instead of just blueprints, and while I did not create a huge quantity of things in C++, it did give me a good insight into what has to be done in order to use C++ effectively in Unreal Engine. 
-                <br> 
-                This project was also the first time I ever made or used VFX, so I learned how to use the Unreal Particle Editor, understand the UI surrounding it and what the possibilities for it are. 
+            <p>
+                Hammer Fly is a personal project I worked on. I made it in Unity on my own. Some assets are from Kenney Assets and some are created by me. I developed it for Android and it is currently available on the <a href = "https://play.google.com/store/apps/details?id=com.DefaultCompany.HammerFly" target="_blank">Google Play Store</a>
             </p>
         </div>
         <div class="work-div">
-            <h1> Creating Temporary Flocking </h1>
-            <img src="/Pictures/CrowdKing.png"> <!-- TODO ADD ACTUAL FAKE FLOCKING GIF-->
-            <p>This is how the "fake flocking" that I quickly created in the beginning looked.</p>
-            <p>In the beginning of the project, my team and I thought that it would be the best experience for the players if the little soldiers that run around the player use Flocking like Boids, as it gives the feeling of organic, intelligent movement. However, we weren't sure if it was feasible for us to create such a complex thing in the small time we had. So, as a Plan B and something that we could already test with before the actual BOIDs would be implemented, I created a small algorithm in C++ that would simulate how the soldiers would feel to the players. It was really simple and quickly done, which was exactly what we wanted. The idea was that every soldier gets assigned an offset for the king which they try to move towards. This felt quite static at first, so I made it that when the King moves the soldiers ignore the offset and just move towards the kings position. This created the feel of the crowd following you dynamically that we were looking for.</p>
-            <img src="/Pictures/CrowdKing.png"> <!-- TODO ADD code sample screenshot GIF-->
+            <h1> The Trailer </h1>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/qKqPyabzKLE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="work-div">
-            <h1>Creating VFX</h1>
-            <img src="/Pictures/CrowdKing.png"> <!-- TODO ADD ACTUAL VFX COMPILATION GIF-->
-            <p>The VFX I created.</p>
-            <p>I had to make sure that the VFX fit our flatshaded artstyle and thus made sure to get frequent feedback from the artists on the team.</p>
-            <p>While I don't think I will be a VFX Artist again in the future, I think I was able to show the flexibility that I bring to a team. I think I am able to pick up many different roles in the team and fulfill them well. I think it's also valuable to know what needs to be done for VFX, how difficult and how important it is. I think my hands-on experience in this field made me a more well-rounded game developer. I think it also helped my communicative abilities as I was forced to communicate more with teammembers I would usually have less contact with.</p>
-        </div>
-        <div class="work-div">
-            <h1>Creating the Hazards</h1>
-            <img src="/Pictures/CrowdKing.png"> <!-- TODO ADD ACTUAL Hazard Spline GIF-->
-            <p>Hazard that follows a spline.</p>
-            <p>This was the first time I used Unreal Engines spline tool. I used it so that Designers could easily create more interesting movement patterns for the Hazards than just going back and forwards. </p>
-            <p>I created a lot of different Hazards in Unreal Blueprints, from swinging ones to ones moving back and forward and others following a spline like you see above. The main focus was the challenge for the players and so I made sure to communicate my ideas clear to the designers and check their opinions on what they thought was important and so on. There was also a lot of polishing done when implementing the art assets that I took responsibility on, such as the lawnmowers turning properly when they should turn around.</p>
+            <img src = "/Pictures/hammerfly.png"></img>
+            <h1> What did I learn from the project?</h1>
+            <p> 
+                This project was not the most challenging from a technical standpoint. However, it did teach me a lot about what it takes to publish an app. I also learned how to use Unitys Touch Input and how to serialize and deserialize things like score and settings to a device. I also researched Unity Ads and how to use them, but in the end decided not to put ads on the product.
+            </p>
         </div>
     </section>
     
