@@ -460,6 +460,7 @@ footer {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 60%;
+    cursor: pointer;
 
 }
 .more-work-div a
@@ -485,20 +486,20 @@ table
     text-align: left;
 }
 
-#Reihe2
+#Row2
 {
     width: 70%;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-#Reihe1
+#Row1
 {
     width: 10%;
     padding-left: 0%;
 }
 
-#Reihe3
+#Row3
 {
     width: 20%;
     padding-left: 2%;
