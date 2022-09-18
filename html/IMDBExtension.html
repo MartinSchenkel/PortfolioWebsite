@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IMDB Extension</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <section class="work-section">
+        <div class="work-div">
+            <img src="/Pictures/IMDBExtension Logo.png" align="center" width="90%" alt = "IMDB Extension Logo"></img>
+        </div>
+        <div class="work-div">
+            <h1> What was the project?</h1>
+            <p> This was just a fun side project for me. I found myself wondering what the average rating was for shows/movies Adam Sandler has played in. I took that opportunity to learn how to build a chrome extension. </p>
+            <p> I use the Chrome Extension functionality to detect whether or not I am looking at a persons IMDB page and if so, I look for the credits. If the person has credits as an Actor/Actress, Writer, Producer or Director, I loop through all credited shows using Javascript html scraping functionality, and make an API call to OMDB, which then returns a rating for that show. I then calculate the average and inject it into the html code.</p>
+        </div>
+        <div class="work-div">
+            <h1> Example of how the injected average rating is displayed </h1>
+            <img src="/Pictures/IMDBExtension.png" align="center" width="90%" alt = "IMDB Extension example"></img>
+        </div>
+        <div class="work-div">
+            <h1> Code snippet that fetches the actresses ratings and inject the average into HTML</h1>
+            <img src="/Pictures/IMDBExtensioCode.png" align="center" width="90%" alt = "IMDB Extension Code"></img>
+        </div>
+    </section>
+    
+</body>
+</html>
