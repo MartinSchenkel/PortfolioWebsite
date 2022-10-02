@@ -71,7 +71,6 @@ function generateHTML(title, work)
 
         for(project of work.children)
         {
-            console.log(project.querySelector('description').textContent);
             var div = workdiv
                 .replace('%TITLE%', project.querySelector('title').textContent)
                 .replace('%HTMLLINK%', project.querySelector('link').textContent)
