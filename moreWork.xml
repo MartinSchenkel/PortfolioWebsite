@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<morework>
+    <gamedevwork>
+        <project>
+            <title>Histera</title>
+            <link>Histera.html</link>
+            <image>../Pictures/histera.jpg</image>
+            <description>Histera is a rapid fire multiplayer shooter featuring dynamic deathmatch arenas that transform as you fight!</description>
+            <engine>Unity</engine>
+            <engine>Unity DOTS</engine>
+            <language>C#</language>
+            <duration>40 Weeks (Internship)</duration>
+        </project>
+        <project>
+            <title>Last Resort</title>
+            <link>LastResort.html</link>
+            <image>../Pictures/LastResort.jpg</image>
+            <description>Last Resort is an online co-op base defense shooter with roguelike elements.</description>
+            <engine>Unreal Engine 4</engine>
+            <language>C++</language>
+            <language>Blueprints</language>
+            <teamsize>29</teamsize>
+            <duration>32 Weeks</duration>
+        </project>
+        <project>
+            <title>Refense</title>
+            <link>Refense.html</link>
+            <image>../Pictures/RefenseLogo.png</image>
+            <description>Refense is a 2D Action game, in which you have to reflect enemy projectiles back at them in order to increase your highscore.</description>
+            <engine>SFML</engine>
+            <language>C++</language>
+            <teamsize>1</teamsize>
+            <duration>40 hours</duration>
+        </project>
+        <project>
+            <title>Crowd King</title>
+            <link>CrowdKing.html</link>
+            <image>../Pictures/CrowdKing.png</image>
+            <description>Crowd King is a top down platformer where you have to get through the level collecting as many minions as you can.</description>
+            <engine>Unreal Engine 4</engine>
+            <language>C++</language>
+            <language>Blueprints</language>
+            <teamsize>12</teamsize>
+            <duration>8 Weeks</duration>
+        </project>
+        <project>
+            <title>Empires</title>
+            <link>Empires.html</link>
+            <image>../Pictures/Empires.JPG</image>
+            <description>Empires is a RTS Game set in space, that was created for the Raspberry Pi.</description>
+            <language>C++</language>
+            <teamsize>1</teamsize>
+            <duration>8 Weeks</duration>
+        </project>
+        <project>
+            <title>DIY Hero</title>
+            <link>DIYHero.html</link>
+            <image>../Pictures/DIY-Hero.JPG</image>
+            <description>DIY Hero is a top down game, in which you play a little boy having to fight vegtables.</description>
+            <language>Blueprints</language>
+            <engine>Unreal Engine 4</engine>
+            <teamsize>9</teamsize>
+            <duration>8 Weeks</duration>
+        </project>
+        <project>
+            <title>TetrisAI</title>
+            <link>TetrisAI.html</link>
+            <image>../Pictures/Tetris.JPG</image>
+            <description>I used genetic algorithms to teach my AI how to play Tetris.</description>
+            <language>C++</language>
+            <engine>SFML</engine>
+            <teamsize>1</teamsize>
+            <duration>2 Weeks</duration>
+        </project>
+        <project>
+            <title>AmpleEngine</title>
+            <link>AmpleEngine.html</link>
+            <image>../Pictures/AmpleMan.JPG</image>
+            <description>As a school project I had to create an engine and create a Megaman x2 clone with it.</description>
+            <language>C++</language>
+            <engine>AmpleEngine</engine>
+            <teamsize>3</teamsize>
+            <duration>8 Weeks</duration>
+        </project>
+        <project>
+            <title>RayTracer</title>
+            <link>RayTracer.html</link>
+            <image>../Pictures/RayTracer.png</image>
+            <description>In the first year of university, we had to create a (non-realtime) Ray Tracer that can handle reflection and refraction.</description>
+            <language>C++</language>
+            <teamsize>1</teamsize>
+            <duration>8 Weeks</duration>
+        </project>
+        <project>
+            <title>HammerFly</title>
+            <link>HammerFly.html</link>
+            <image>../Pictures/HammerFly.png</image>
+            <description>Hammer Fly is a mobile app that I created as a personal project.</description>
+            <language>C#</language>
+            <engine>Unity</engine>
+            <teamsize>1</teamsize>
+            <duration>8 Weeks</duration>
+        </project>
+    </gamedevwork>
+    <programmingwork>
+        <project>
+            <title>PortfolioWebsite</title>
+            <link>PortfolioWebsite.html</link>
+            <image>../Pictures/Portfolio.png</image>
+            <description>I created this Portfolio Website myself from Scratch using vanilla HTML, CSS and JS. &lt;a href='https://github.com/MartinSchenkel/PortfolioWebsite'&gt;Github Link.&lt;/a&gt;</description>
+            <language>HTML</language>
+            <language>CSS</language>
+            <language>JavaScript</language>
+            <teamsize>1</teamsize>
+        </project>
+        <project>
+            <title>PythonWebscraper</title>
+            <link>PythonWebscraper.html</link>
+            <image>../Pictures/webscraper.png</image>
+            <description>I created a Python Webscraper, to get game stats from my friends and me to display on our &lt;a href='https://asterior.de'&gt;Website.&lt;/a&gt; &lt;a href='https://https://github.com/MartinSchenkel/PythonWebscraper'>Github Link.&lt;/a&gt;</description>
+            <language>Python</language>
+            <teamsize>1</teamsize>
+        </project>
+        <project>
+            <title>IMDB Extension</title>
+            <link>IMDBExtension.html</link>
+            <image>../Pictures/IMDBExtension.png</image>
+            <description>I created a small Chrome Extension that displays the average rating an actor or actress has on shows during their careers.</description>
+            <language>JavaScript</language>
+            <teamsize>1</teamsize>
+            <duration>1 Day</duration>
+        </project>
+    </programmingwork>
+    <otherwork></otherwork>
+</morework>
