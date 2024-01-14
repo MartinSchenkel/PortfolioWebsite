@@ -131,6 +131,15 @@
             <teamsize>1</teamsize>
             <duration>1 Day</duration>
         </project>
+        <project>
+            <title>Happits</title>
+            <link>Happits.html</link>
+            <image>../Pictures/happitsicon.png</image>
+            <description>I created a small Android app to track and establish productive habits.</description>
+            <language>Dart/Flutter</language>
+            <teamsize>1</teamsize>
+            <duration>1 Week</duration>
+        </project>
     </programmingwork>
     <otherwork></otherwork>
 </morework>
